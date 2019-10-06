@@ -1,0 +1,40 @@
+<html>
+
+    <head>
+
+        <style>
+            table ,tr, td {
+                border: 1px black solid;
+            }
+
+        </style>
+
+    </head>
+
+    <body onload="loadSavedData()">
+        <h4><span id="user-info"></span></h4>
+        
+        <div id="divCart">
+            <h1>CART:</h1>
+
+            <table border="1px solid" cellpadding=20 cellspacing=0>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+
+        <a id="aCheckOut" href="#">CheckOut</a>  &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a id="aContinueShopping" href="./products.html">Continue Shopping</a>
+
+        <script src="cart.js"></script>
+    </body>
+
+</html>
